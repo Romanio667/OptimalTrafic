@@ -19,7 +19,7 @@ jobs:
         dotnet-version: 5.0.x
 
     - name: dotnet run
-      run: --project ./OptimalTrafic/OptimalTrafic/OptimalTrafic.csproj 
+      run: ./OptimalTrafic/OptimalTrafic/OptimalTrafic.csproj 
 
     - name: Build with dotnet
       run: dotnet build --source ./OptimalTrafic/OptimalTrafic.sln
