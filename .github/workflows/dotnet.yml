@@ -19,4 +19,4 @@ jobs:
         dotnet-version: 5.0.x
 
     - name: Build with dotnet
-      run: dotnet build  OptimalTrafic/OptimalTrafic/bin/Release/net5.0-windows/OptimalTrafic.exe --configuration Release
+      run: dotnet build  ./OptimalTrafic/OptimalTrafic/bin/Release/net5.0-windows/OptimalTrafic.exe --configuration Release
