@@ -22,4 +22,4 @@ jobs:
      # run: dotnet run --project ./OptimalTrafic/OptimalTrafic/OptimalTrafic.csproj 
 
     - name: dotnet build
-      run: dotnet build --source .\OptimalTrafic\OptimalTrafic\OptimalTrafic.csproj
+      run: dotnet build ./OptimalTrafic/OptimalTrafic.sln --configuration Debug
